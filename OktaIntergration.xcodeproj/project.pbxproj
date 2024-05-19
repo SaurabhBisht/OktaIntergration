@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		079735352BB55B70009AD354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079735342BB55B70009AD354 /* AppDelegate.swift */; };
+		079735372BB55B70009AD354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079735362BB55B70009AD354 /* SceneDelegate.swift */; };
+		079735392BB55B70009AD354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079735382BB55B70009AD354 /* ViewController.swift */; };
+		0797353C2BB55B70009AD354 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0797353B2BB55B70009AD354 /* Base */; };
+		0797353E2BB55B71009AD354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0797353D2BB55B71009AD354 /* Assets.xcassets */; };
+		079735412BB55B71009AD354 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 079735402BB55B71009AD354 /* Base */; };
+		0797354C2BB55B72009AD354 /* OktaIntergrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0797354B2BB55B72009AD354 /* OktaIntergrationTests.swift */; };
+		079735562BB55B72009AD354 /* OktaIntergrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079735552BB55B72009AD354 /* OktaIntergrationUITests.swift */; };
+		079735582BB55B72009AD354 /* OktaIntergrationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079735572BB55B72009AD354 /* OktaIntergrationUITestsLaunchTests.swift */; };
+		079735652BB55DD3009AD354 /* OktaConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 079735642BB55DD3009AD354 /* OktaConfig.plist */; };
+		22A805937E2FB83048D2DC3B /* Pods_OktaIntergrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5995A1729832C36064F8064A /* Pods_OktaIntergrationTests.framework */; };
+		3B12BE9C48D48A6AE3B486E2 /* Pods_OktaIntergration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE61F2F72A66B93D7A533F3F /* Pods_OktaIntergration.framework */; };
+		B5841BE0828CE7499E5B6088 /* Pods_OktaIntergration_OktaIntergrationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5800090EE6DBA56274D4420 /* Pods_OktaIntergration_OktaIntergrationUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		079735482BB55B72009AD354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 079735292BB55B70009AD354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079735302BB55B70009AD354;
+			remoteInfo = OktaIntergration;
+		};
+		079735522BB55B72009AD354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 079735292BB55B70009AD354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079735302BB55B70009AD354;
+			remoteInfo = OktaIntergration;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		079735312BB55B70009AD354 /* OktaIntergration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OktaIntergration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		079735342BB55B70009AD354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		079735362BB55B70009AD354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		079735382BB55B70009AD354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0797353B2BB55B70009AD354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0797353D2BB55B71009AD354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		079735402BB55B71009AD354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		079735422BB55B71009AD354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079735472BB55B72009AD354 /* OktaIntergrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OktaIntergrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0797354B2BB55B72009AD354 /* OktaIntergrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OktaIntergrationTests.swift; sourceTree = "<group>"; };
+		079735512BB55B72009AD354 /* OktaIntergrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OktaIntergrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		079735552BB55B72009AD354 /* OktaIntergrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OktaIntergrationUITests.swift; sourceTree = "<group>"; };
+		079735572BB55B72009AD354 /* OktaIntergrationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OktaIntergrationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		079735642BB55DD3009AD354 /* OktaConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = OktaConfig.plist; sourceTree = "<group>"; };
+		58A8EE575227D69D55EDE2F2 /* Pods-OktaIntergration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OktaIntergration.debug.xcconfig"; path = "Target Support Files/Pods-OktaIntergration/Pods-OktaIntergration.debug.xcconfig"; sourceTree = "<group>"; };
+		5995A1729832C36064F8064A /* Pods_OktaIntergrationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OktaIntergrationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABC2098B21C43EA41BDAD44 /* Pods-OktaIntergrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OktaIntergrationTests.release.xcconfig"; path = "Target Support Files/Pods-OktaIntergrationTests/Pods-OktaIntergrationTests.release.xcconfig"; sourceTree = "<group>"; };
+		A5800090EE6DBA56274D4420 /* Pods_OktaIntergration_OktaIntergrationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OktaIntergration_OktaIntergrationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B927D67FC5B506FA6F11CBFD /* Pods-OktaIntergration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OktaIntergration.release.xcconfig"; path = "Target Support Files/Pods-OktaIntergration/Pods-OktaIntergration.release.xcconfig"; sourceTree = "<group>"; };
+		BF00CB2F6F773586353813D9 /* Pods-OktaIntergration-OktaIntergrationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OktaIntergration-OktaIntergrationUITests.release.xcconfig"; path = "Target Support Files/Pods-OktaIntergration-OktaIntergrationUITests/Pods-OktaIntergration-OktaIntergrationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D2B37F044ACD203C29800DDB /* Pods-OktaIntergration-OktaIntergrationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OktaIntergration-OktaIntergrationUITests.debug.xcconfig"; path = "Target Support Files/Pods-OktaIntergration-OktaIntergrationUITests/Pods-OktaIntergration-OktaIntergrationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8F9509F07EE69F612005F89 /* Pods-OktaIntergrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OktaIntergrationTests.debug.xcconfig"; path = "Target Support Files/Pods-OktaIntergrationTests/Pods-OktaIntergrationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE61F2F72A66B93D7A533F3F /* Pods_OktaIntergration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OktaIntergration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0797352E2BB55B70009AD354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B12BE9C48D48A6AE3B486E2 /* Pods_OktaIntergration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079735442BB55B72009AD354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A805937E2FB83048D2DC3B /* Pods_OktaIntergrationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0797354E2BB55B72009AD354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5841BE0828CE7499E5B6088 /* Pods_OktaIntergration_OktaIntergrationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079735282BB55B70009AD354 = {
+			isa = PBXGroup;
+			children = (
+				079735332BB55B70009AD354 /* OktaIntergration */,
+				0797354A2BB55B72009AD354 /* OktaIntergrationTests */,
+				079735542BB55B72009AD354 /* OktaIntergrationUITests */,
+				079735322BB55B70009AD354 /* Products */,
+				ADB064B2615AEB15EEBA0184 /* Pods */,
+				CED1FD841ADBC09A855AFC96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		079735322BB55B70009AD354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				079735312BB55B70009AD354 /* OktaIntergration.app */,
+				079735472BB55B72009AD354 /* OktaIntergrationTests.xctest */,
+				079735512BB55B72009AD354 /* OktaIntergrationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		079735332BB55B70009AD354 /* OktaIntergration */ = {
+			isa = PBXGroup;
+			children = (
+				079735342BB55B70009AD354 /* AppDelegate.swift */,
+				079735362BB55B70009AD354 /* SceneDelegate.swift */,
+				079735382BB55B70009AD354 /* ViewController.swift */,
+				0797353A2BB55B70009AD354 /* Main.storyboard */,
+				0797353D2BB55B71009AD354 /* Assets.xcassets */,
+				0797353F2BB55B71009AD354 /* LaunchScreen.storyboard */,
+				079735422BB55B71009AD354 /* Info.plist */,
+				079735642BB55DD3009AD354 /* OktaConfig.plist */,
+			);
+			path = OktaIntergration;
+			sourceTree = "<group>";
+		};
+		0797354A2BB55B72009AD354 /* OktaIntergrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				0797354B2BB55B72009AD354 /* OktaIntergrationTests.swift */,
+			);
+			path = OktaIntergrationTests;
+			sourceTree = "<group>";
+		};
+		079735542BB55B72009AD354 /* OktaIntergrationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				079735552BB55B72009AD354 /* OktaIntergrationUITests.swift */,
+				079735572BB55B72009AD354 /* OktaIntergrationUITestsLaunchTests.swift */,
+			);
+			path = OktaIntergrationUITests;
+			sourceTree = "<group>";
+		};
+		ADB064B2615AEB15EEBA0184 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58A8EE575227D69D55EDE2F2 /* Pods-OktaIntergration.debug.xcconfig */,
+				B927D67FC5B506FA6F11CBFD /* Pods-OktaIntergration.release.xcconfig */,
+				D2B37F044ACD203C29800DDB /* Pods-OktaIntergration-OktaIntergrationUITests.debug.xcconfig */,
+				BF00CB2F6F773586353813D9 /* Pods-OktaIntergration-OktaIntergrationUITests.release.xcconfig */,
+				E8F9509F07EE69F612005F89 /* Pods-OktaIntergrationTests.debug.xcconfig */,
+				6ABC2098B21C43EA41BDAD44 /* Pods-OktaIntergrationTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CED1FD841ADBC09A855AFC96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE61F2F72A66B93D7A533F3F /* Pods_OktaIntergration.framework */,
+				A5800090EE6DBA56274D4420 /* Pods_OktaIntergration_OktaIntergrationUITests.framework */,
+				5995A1729832C36064F8064A /* Pods_OktaIntergrationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		079735302BB55B70009AD354 /* OktaIntergration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0797355B2BB55B72009AD354 /* Build configuration list for PBXNativeTarget "OktaIntergration" */;
+			buildPhases = (
+				474BAADDDBB2B1DF96426E70 /* [CP] Check Pods Manifest.lock */,
+				0797352D2BB55B70009AD354 /* Sources */,
+				0797352E2BB55B70009AD354 /* Frameworks */,
+				0797352F2BB55B70009AD354 /* Resources */,
+				B8909EFE7D14C3A8024075FA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OktaIntergration;
+			productName = OktaIntergration;
+			productReference = 079735312BB55B70009AD354 /* OktaIntergration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		079735462BB55B72009AD354 /* OktaIntergrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0797355E2BB55B72009AD354 /* Build configuration list for PBXNativeTarget "OktaIntergrationTests" */;
+			buildPhases = (
+				2B9863878B546473CE832558 /* [CP] Check Pods Manifest.lock */,
+				079735432BB55B72009AD354 /* Sources */,
+				079735442BB55B72009AD354 /* Frameworks */,
+				079735452BB55B72009AD354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				079735492BB55B72009AD354 /* PBXTargetDependency */,
+			);
+			name = OktaIntergrationTests;
+			productName = OktaIntergrationTests;
+			productReference = 079735472BB55B72009AD354 /* OktaIntergrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		079735502BB55B72009AD354 /* OktaIntergrationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079735612BB55B72009AD354 /* Build configuration list for PBXNativeTarget "OktaIntergrationUITests" */;
+			buildPhases = (
+				5D076D34D93367DEE4139577 /* [CP] Check Pods Manifest.lock */,
+				0797354D2BB55B72009AD354 /* Sources */,
+				0797354E2BB55B72009AD354 /* Frameworks */,
+				0797354F2BB55B72009AD354 /* Resources */,
+				038A7845C7C527D88DB7E4EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				079735532BB55B72009AD354 /* PBXTargetDependency */,
+			);
+			name = OktaIntergrationUITests;
+			productName = OktaIntergrationUITests;
+			productReference = 079735512BB55B72009AD354 /* OktaIntergrationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		079735292BB55B70009AD354 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					079735302BB55B70009AD354 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					079735462BB55B72009AD354 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 079735302BB55B70009AD354;
+					};
+					079735502BB55B72009AD354 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 079735302BB55B70009AD354;
+					};
+				};
+			};
+			buildConfigurationList = 0797352C2BB55B70009AD354 /* Build configuration list for PBXProject "OktaIntergration" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 079735282BB55B70009AD354;
+			productRefGroup = 079735322BB55B70009AD354 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				079735302BB55B70009AD354 /* OktaIntergration */,
+				079735462BB55B72009AD354 /* OktaIntergrationTests */,
+				079735502BB55B72009AD354 /* OktaIntergrationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0797352F2BB55B70009AD354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0797353E2BB55B71009AD354 /* Assets.xcassets in Resources */,
+				079735412BB55B71009AD354 /* Base in Resources */,
+				0797353C2BB55B70009AD354 /* Base in Resources */,
+				079735652BB55DD3009AD354 /* OktaConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079735452BB55B72009AD354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0797354F2BB55B72009AD354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		038A7845C7C527D88DB7E4EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OktaIntergration-OktaIntergrationUITests/Pods-OktaIntergration-OktaIntergrationUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OktaIntergration-OktaIntergrationUITests/Pods-OktaIntergration-OktaIntergrationUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OktaIntergration-OktaIntergrationUITests/Pods-OktaIntergration-OktaIntergrationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B9863878B546473CE832558 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OktaIntergrationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		474BAADDDBB2B1DF96426E70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OktaIntergration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D076D34D93367DEE4139577 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OktaIntergration-OktaIntergrationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8909EFE7D14C3A8024075FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OktaIntergration/Pods-OktaIntergration-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OktaIntergration/Pods-OktaIntergration-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OktaIntergration/Pods-OktaIntergration-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0797352D2BB55B70009AD354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079735392BB55B70009AD354 /* ViewController.swift in Sources */,
+				079735352BB55B70009AD354 /* AppDelegate.swift in Sources */,
+				079735372BB55B70009AD354 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079735432BB55B72009AD354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0797354C2BB55B72009AD354 /* OktaIntergrationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0797354D2BB55B72009AD354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079735562BB55B72009AD354 /* OktaIntergrationUITests.swift in Sources */,
+				079735582BB55B72009AD354 /* OktaIntergrationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		079735492BB55B72009AD354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079735302BB55B70009AD354 /* OktaIntergration */;
+			targetProxy = 079735482BB55B72009AD354 /* PBXContainerItemProxy */;
+		};
+		079735532BB55B72009AD354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079735302BB55B70009AD354 /* OktaIntergration */;
+			targetProxy = 079735522BB55B72009AD354 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0797353A2BB55B70009AD354 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0797353B2BB55B70009AD354 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0797353F2BB55B71009AD354 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079735402BB55B71009AD354 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		079735592BB55B72009AD354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0797355A2BB55B72009AD354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0797355C2BB55B72009AD354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A8EE575227D69D55EDE2F2 /* Pods-OktaIntergration.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OktaIntergration/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.dev.OktaIntergration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0797355D2BB55B72009AD354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B927D67FC5B506FA6F11CBFD /* Pods-OktaIntergration.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OktaIntergration/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.dev.OktaIntergration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0797355F2BB55B72009AD354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F9509F07EE69F612005F89 /* Pods-OktaIntergrationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.dev.OktaIntergrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OktaIntergration.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OktaIntergration";
+			};
+			name = Debug;
+		};
+		079735602BB55B72009AD354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ABC2098B21C43EA41BDAD44 /* Pods-OktaIntergrationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.dev.OktaIntergrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OktaIntergration.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OktaIntergration";
+			};
+			name = Release;
+		};
+		079735622BB55B72009AD354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B37F044ACD203C29800DDB /* Pods-OktaIntergration-OktaIntergrationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.dev.OktaIntergrationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OktaIntergration;
+			};
+			name = Debug;
+		};
+		079735632BB55B72009AD354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF00CB2F6F773586353813D9 /* Pods-OktaIntergration-OktaIntergrationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.dev.OktaIntergrationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OktaIntergration;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0797352C2BB55B70009AD354 /* Build configuration list for PBXProject "OktaIntergration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079735592BB55B72009AD354 /* Debug */,
+				0797355A2BB55B72009AD354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0797355B2BB55B72009AD354 /* Build configuration list for PBXNativeTarget "OktaIntergration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0797355C2BB55B72009AD354 /* Debug */,
+				0797355D2BB55B72009AD354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0797355E2BB55B72009AD354 /* Build configuration list for PBXNativeTarget "OktaIntergrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0797355F2BB55B72009AD354 /* Debug */,
+				079735602BB55B72009AD354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079735612BB55B72009AD354 /* Build configuration list for PBXNativeTarget "OktaIntergrationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079735622BB55B72009AD354 /* Debug */,
+				079735632BB55B72009AD354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 079735292BB55B70009AD354 /* Project object */;
+}

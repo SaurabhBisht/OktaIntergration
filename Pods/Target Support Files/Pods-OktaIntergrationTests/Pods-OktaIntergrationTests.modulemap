@@ -1,0 +1,6 @@
+framework module Pods_OktaIntergrationTests {
+  umbrella header "Pods-OktaIntergrationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

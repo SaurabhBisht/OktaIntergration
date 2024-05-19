@@ -1,0 +1,6 @@
+framework module Pods_OktaIntergration {
+  umbrella header "Pods-OktaIntergration-umbrella.h"
+
+  export *
+  module * { export * }
+}
